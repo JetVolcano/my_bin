@@ -1,3 +1,0 @@
-class CustomBinary:
-    def __init__() -> None: ...
-    

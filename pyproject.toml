@@ -1,12 +1,13 @@
 [project]
 name = "my-bin"
-version = "0.0.0"
+version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.5"
+requires-python = ">=3.7"
 dependencies = []
 
 [dependency-groups]
 dev = [
-    "ruff>=0.0.17",
+    "jupyter>=1.1.1",
+    "ruff==0.14.6",
 ]
